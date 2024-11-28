@@ -1,15 +1,16 @@
+import type { ReactElement } from 'react';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
 
-function App() {
+const App = (): ReactElement => {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Nav />
-      <main>
+      <main className="flex-1">
         <Outlet />
       </main>
-    </>
+    </div>
   );
-}
+};
 
 export default App;
