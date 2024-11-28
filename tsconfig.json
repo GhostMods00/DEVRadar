@@ -1,31 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-
-    /* Additional */
-    "allowJs": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "target": "esnext", // Adjust based on your project's target environment
+    "module": "esnext", // Adjust based on your project's module format
+    "jsx": "react", // Configure JSX handling
+    "strict": true, // Enable strict mode for more type checking
+    "declaration": true, // Generate type declaration files (.d.ts)
+    "outDir": "./dist", // Specify output directory for compiled files
+    "sourceMap": true, // Enable source maps for debugging
+    "baseUrl": "./src", // Base URL for resolving non-relative imports
+    "paths": { // Optional: Configure path aliases for easier imports
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["src", "vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"], // Include the src directory for type checking
+  "exclude": ["node_modules"] // Exclude node_modules from type checking
 }
