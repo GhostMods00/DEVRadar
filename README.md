@@ -33,6 +33,8 @@ A sophisticated GitHub talent acquisition platform built with modern web technol
 ### Saved candidates
 ![App Screenshot](https://i.imgur.com/SF6K8EZ.png)
 
+### No candidates Found
+![App Screenshot](https://i.imgur.com/L2AhG3U.png)
 
 ## ✨ Features
 
