@@ -15,6 +15,7 @@ A sophisticated GitHub talent acquisition platform built with modern web technol
 
 ## 🎯 Table of Contents
 - [✨ Features](#-features)
+- [🚀 Deployment](#-deployment)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📦 Installation](#-installation)
 - [🏗️ Project Structure](#️-project-structure)
@@ -49,6 +50,10 @@ A sophisticated GitHub talent acquisition platform built with modern web technol
 - 🎭 Error boundary implementation
 - 🔄 Custom hooks for data management
 - 🌐 React Router v6 navigation
+
+## 🚀 Deployment
+
+This portfolio is live on Render at: [https://devradar-pe79.onrender.com] 🌐
 
 ## 🛠️ Tech Stack
 
