@@ -13,7 +13,7 @@
 ## ✨ Description
 A sophisticated GitHub talent acquisition platform built with modern web technologies. Streamline your technical recruitment process by discovering, evaluating, and managing potential developer candidates through GitHub profiles. 🚀
 
-## 🎯 Table of Contents
+## 📑 Table of Contents
 - [✨ Features](#-features)
 - [🚀 Deployment](#-deployment)
 - [🛠️ Tech Stack](#️-tech-stack)
